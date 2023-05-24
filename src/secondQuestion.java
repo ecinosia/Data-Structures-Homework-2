@@ -23,14 +23,11 @@ public class secondQuestion {
     MergedList.addAll(SecondList);
     MergedList.addAll(ThirdList);
 
-    System.out.println("L1: "+ FirstList);
-    System.out.println("L2: "+ SecondList);
-    System.out.println("L3: "+ ThirdList);
-    System.out.println("Merged: "+ MergedList);
+    System.out.println("List 1: "+ FirstList + "  List 2: "+ SecondList + "  List 3: "+ ThirdList + "  Merged List: "+ MergedList);
     
     Collections.sort(MergedList);
 
-    System.out.println("Merged and Sorted: "+ MergedList);
+    System.out.println("Merged and Sorted List: "+ MergedList);
    }
 
     
